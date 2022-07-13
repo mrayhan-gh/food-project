@@ -1,29 +1,35 @@
 
-
+body{
+    margin: 0;
+    padding: 0;
+}
 /* heading-one start */
 h1{
     font-size: 50px;
 }
+
 .head-sec{
     display: flex;
     background-color: white;
 }
+
 div img{
     width: 800px;
     height: 700px;
 }
+
 .text-cont{
     margin-top: 50px;
     margin-left: 100px;
-
-
 }
+
 .head-sec-cont{
     width: 50%;
     padding: 100px 50px;
     font-size: 30px;
     text-align: justify;
 }
+
 a{
     padding: 15px 20px;
     background-image: linear-gradient(to right, rgb(233, 233, 19), rgb(229, 13, 13));
@@ -32,9 +38,10 @@ a{
     text-decoration: none;
     font-weight: bold;
     line-height: 50px;
-    
 }
 /* heading-one end */
+
+
 /* about-me-sec start */
 .about-me-sec{
     display: flex;
@@ -42,24 +49,29 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .about-me-sec div{
     padding: 10px 50px;
     height: 800px;
 }
+
 .about-me-sec img{
     width: 500px;
     height: 700px;
     padding: 100px;
 }
+
 #text-cont{
     margin-top: 250px;
     
 }
+
 #text-cont p{
     font-size: 20px;
 }
-
 /* about-me-sec end */
+
+
 /* racipe review section start */
 .text-cont{
     width: 50%;
@@ -67,29 +79,48 @@ a{
     text-align: center;
 }
 .text-cont p{
-    font-size: 30px;
+    font-size: 20px;
 }
 .recipe-sec{
     text-align: center;
+    padding: 50px;
     
 }
 .racipe-cont{
     display: flex;
     padding: 50px;
-
 }
+
 .racipe-cont div{
-    border: 1px solid black;
-    margin-left: 30px;
-    text-align: center;
-
-
+    text-align: justify;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px rgb(154, 151, 151);
+    width: 43%;
+    height: 500px;
+    margin: 0 auto;
+    line-height: 25px;
 }
+
+.racipe-cont div h1{
+    font-size: 30px;
+    line-height: 5px;
+}
+
+.racipe-cont div p{
+    font-size: 20px;
+}
+
 .racipe-cont div img{
-    width: 600px;
-    height: 400px;
+    width: 550px;
+    height: 350px;
+    box-shadow: 1px 1px 20px rgb(160, 153, 153);
+    border-radius: 35px;
 }
 /* racipe review section end */
+
+
 /* engagement section start */
 .engagement-sec{
     display:flex;
