@@ -1,0 +1,117 @@
+
+
+/* heading-one start */
+h1{
+    font-size: 50px;
+}
+.head-sec{
+    display: flex;
+    background-color: white;
+}
+div img{
+    width: 800px;
+    height: 700px;
+}
+.text-cont{
+    margin-top: 50px;
+    margin-left: 100px;
+
+
+}
+.head-sec-cont{
+    width: 50%;
+    padding: 100px 50px;
+    font-size: 30px;
+    text-align: justify;
+}
+a{
+    padding: 15px 20px;
+    background-image: linear-gradient(to right, rgb(233, 233, 19), rgb(229, 13, 13));
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 50px;
+    
+}
+/* heading-one end */
+/* about-me-sec start */
+.about-me-sec{
+    display: flex;
+    background-image: url(images/frame1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-me-sec div{
+    padding: 10px 50px;
+    height: 800px;
+}
+.about-me-sec img{
+    width: 500px;
+    height: 700px;
+    padding: 100px;
+}
+#text-cont{
+    margin-top: 250px;
+    
+}
+#text-cont p{
+    font-size: 20px;
+}
+
+/* about-me-sec end */
+/* racipe review section start */
+.text-cont{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-cont p{
+    font-size: 30px;
+}
+.recipe-sec{
+    text-align: center;
+    
+}
+.racipe-cont{
+    display: flex;
+    padding: 50px;
+
+}
+.racipe-cont div{
+    border: 1px solid black;
+    margin-left: 30px;
+    text-align: center;
+
+
+}
+.racipe-cont div img{
+    width: 600px;
+    height: 400px;
+}
+/* racipe review section end */
+/* engagement section start */
+.engagement-sec{
+    display:flex;
+    padding: 100px;
+    background-color: antiquewhite;
+}
+.engagement-sec div{
+    margin-left: 150px;
+    line-height:10px;
+    text-align: center;
+}
+/* engagement section end */
+
+
+/* footer sectionk start */
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+footer h2{
+    color: crimson;
+}
+/* footer sectionk end */
